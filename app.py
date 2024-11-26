@@ -1,6 +1,12 @@
-# Criando o array (lista) com os números de 1 a 5
-numeros = [1, 2, 3, 4, 5]
+# Criando um dicionário vazio
+pessoas = {}
 
-# Percorrendo todos os números
-for numero in numeros:
-    print(f"O número atual é: {numero}")
+# Adicionando pessoas ao dicionário
+pessoas["Alice"] = 25
+pessoas["Bruno"] = 30
+pessoas["Carla"] = 22
+pessoas["Diego"] = 28
+
+# Percorrendo o dicionário e mostrando as informações
+for nome, idade in pessoas.items():
+    print(f"Nome: {nome}, Idade: {idade}")
